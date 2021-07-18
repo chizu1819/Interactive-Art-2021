@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BCD40E12-B4C3-24A8-C7BB-EF7512D05C6E}</ProjectGuid>
+    <ProjectGuid>{E73E0A45-78A4-66B6-15CB-6D164C1DC58C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\moving.cs" />
      <Compile Include="Assets\SerialHandler.cs" />
      <Compile Include="Assets\SerialLight.cs" />
  <Reference Include="UnityEngine.UI">

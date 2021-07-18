@@ -9,12 +9,13 @@ public class SerialLight : MonoBehaviour {
 	public Text text;
 	public GameObject cube;
 
-	public GameObject moving_cube;
+	 public Rigidbody moving_cube;
 
 	// Use this for initialization
 	void Start () {
 		//信号を受信したときに、そのメッセージの処理を行う
 		serialHandler.OnDataReceived += OnDataReceived;
+		
 	}
 	
 	// Update is called once per frame
@@ -37,8 +38,11 @@ public class SerialLight : MonoBehaviour {
 			Vector3 angle = new Vector3(float.Parse(angles[0]), float.Parse(angles[1]), float.Parse(angles[2]));
 			cube.transform.rotation = Quaternion.Euler(angle);
 
-			Vector3 angle1 = new Vector3(float.Parse(angles[0]), float.Parse(angles[1]), 0);
-			moving_cube.transform.rotation = Quaternion.Euler(angle1);
+			//Vector3 angle1 = new Vector3(float.Parse(angles[0]), float.Parse(angles[1]), 0);
+			//moving_cube.transform.rotation = Quaternion.Euler(angle1);
+
+			moving_cube = GetComponent<Rigidbody>();
+			moving_cube.velocity = new Vector3(0, 10, 0);
 
 			if(angles[3] == "touching")
 			{
@@ -47,6 +51,7 @@ public class SerialLight : MonoBehaviour {
 		} 
 		catch (System.Exception e) {
 			Debug.LogWarning(e.Message);
+			
 		}
 	}
 }
