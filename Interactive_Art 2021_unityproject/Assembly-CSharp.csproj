@@ -51,17 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Rotate.cs" />
      <Compile Include="Assets\Script\Count.cs" />
      <Compile Include="Assets\Script\finish.cs" />
      <Compile Include="Assets\Script\gem.cs" />
      <Compile Include="Assets\Script\moving.cs" />
      <Compile Include="Assets\Script\retry.cs" />
+     <Compile Include="Assets\Script\Rotate.cs" />
      <Compile Include="Assets\Script\SerialHandler.cs" />
      <Compile Include="Assets\Script\SerialLight.cs" />
      <Compile Include="Assets\Script\SerialSend.cs" />
+     <None Include="Assets\Encode_Sans_SC\OFL.txt" />
      <None Include="Assets\JewelryShader_noriben\JewelryShaderSimple.shader" />
      <None Include="Assets\JewelryShader_noriben\JewelryShaderMax.shader" />
+     <None Include="Assets\Encode_Sans_SC\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Hub/Editor/2017.3.0f3/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

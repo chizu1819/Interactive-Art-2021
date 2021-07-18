@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 10e3d322bd381407dbc1da12d90d61c7
+timeCreated: 1626628078
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Encode Sans SC
+  fontNames:
+  - Encode Sans SC
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0a20be1be8b6d456ab2c8e669e5e2f8e, type: 3}
+  - {fileID: 12800000, guid: 0610c5ee040ee4a40919987d4350746d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -30,6 +30,17 @@ public class  moving : MonoBehaviour {
         {
             transform.Translate(0f, 0f, -0.1f);
         }
+		/*
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.Translate(-0.1f, 0f, 0f);
+        }
+		
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.Translate(0.1f, 0f, 0f);
+        }
+		*/
 		
 	}
 	int i=0;
@@ -73,11 +84,13 @@ public class  moving : MonoBehaviour {
 					transform.Rotate(new Vector3(0, -1.0f, 0f));
 				}
 				*/
+
 			}
 
 			if(angles[3] == "touching" && Input.GetKey(KeyCode.LeftArrow))
 			{
 				transform.Rotate(new Vector3(0, -1.0f, 0));
+				Debug.Log("j");
 			}
 					
 		} 
