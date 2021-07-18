@@ -7,7 +7,6 @@ public class SerialLight : MonoBehaviour {
 
 	public SerialHandler serialHandler;
 	public Text text;
-	public GameObject cube;
 
 	// Use this for initialization
 	void Start () {
@@ -34,7 +33,6 @@ public class SerialLight : MonoBehaviour {
 			text.text = "x:" + angles[0] + "\n" + "y:" + angles[1] + "\n" + "Pressure:" + angles[2] + "\n" + angles[3] + "\n"; // シリアルの値をテキストに表示
 
 			Vector3 angle = new Vector3(float.Parse(angles[0]), float.Parse(angles[1]), float.Parse(angles[2]));
-			cube.transform.rotation = Quaternion.Euler(angle);
 
 			if(angles[3] == "touching")
 			{

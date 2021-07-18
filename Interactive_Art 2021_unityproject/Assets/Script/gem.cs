@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class gem : MonoBehaviour {
 
-	// Use this for initialization
+	public SerialHandler serialHandler;
 	void Start () {
+		//信号を受信したときに、そのメッセージの処理を行う
+		serialHandler.OnDataReceived += OnDataReceived;
 		
 	}
 	
@@ -18,6 +20,23 @@ public class gem : MonoBehaviour {
 			Debug.Log("Gem");
 			collision.gameObject.GetComponent<Renderer>().material.color = Color.yellow;
 			Destroy(gameObject, 0.2f);
+		}
+	}
+
+	/*
+	 * シリアルを受け取った時の処理
+	 */
+	void OnDataReceived(string message) {
+		try 
+		{
+			string[] angles = message.Split(',');
+
+			Vector3 angle = new Vector3(float.Parse(angles[0]), float.Parse(angles[1]), float.Parse(angles[2]));
+			transform.rotation = Quaternion.Euler(angle);
+		} 
+		catch (System.Exception e) {
+			Debug.LogWarning(e.Message);
+			
 		}
 	}
 }

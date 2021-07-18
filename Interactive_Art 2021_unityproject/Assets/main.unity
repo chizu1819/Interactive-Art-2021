@@ -170,7 +170,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serialHandler: {fileID: 76637}
   text: {fileID: 658694744}
-  cube: {fileID: 1005548010}
 --- !u!1 &802917
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a032435aac24d72962f41989b2c2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serialHandler: {fileID: 76637}
 --- !u!1 &84192919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,7 +2288,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serialHandler: {fileID: 76637}
   text: {fileID: 658694744}
-  cube: {fileID: 1005548010}
 --- !u!4 &330323748
 Transform:
   m_ObjectHideFlags: 0
@@ -3499,7 +3498,6 @@ GameObject:
   - component: {fileID: 506875841}
   - component: {fileID: 506875840}
   - component: {fileID: 506875839}
-  - component: {fileID: 506875838}
   - component: {fileID: 506875837}
   - component: {fileID: 506875836}
   m_Layer: 0
@@ -3520,6 +3518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a032435aac24d72962f41989b2c2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serialHandler: {fileID: 76637}
 --- !u!65 &506875837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3532,18 +3531,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3095815, y: 0.8331416, z: 2.1965432}
   m_Center: {x: 0.00000017881392, y: -0.0000004321338, z: 0.11594781}
---- !u!114 &506875838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000013818408240, guid: 1a73058088a4b204bb3a13aff5c48489,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 506875835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &506875839
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4527,6 +4514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a032435aac24d72962f41989b2c2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serialHandler: {fileID: 76637}
 --- !u!1 &586097198
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,6 +4995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a032435aac24d72962f41989b2c2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serialHandler: {fileID: 76637}
 --- !u!65 &630236630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7929,7 +7918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1005548012
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8508,7 +8497,6 @@ GameObject:
   - component: {fileID: 1092488408}
   - component: {fileID: 1092488407}
   - component: {fileID: 1092488406}
-  - component: {fileID: 1092488405}
   - component: {fileID: 1092488409}
   - component: {fileID: 1092488410}
   m_Layer: 0
@@ -8518,18 +8506,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1092488405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000013812041550, guid: af16961524284e54491133548920258b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1092488404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1092488406
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8610,6 +8586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a032435aac24d72962f41989b2c2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serialHandler: {fileID: 76637}
 --- !u!1 &1115126561
 GameObject:
   m_ObjectHideFlags: 0
@@ -8873,7 +8850,6 @@ GameObject:
   - component: {fileID: 1137417465}
   - component: {fileID: 1137417464}
   - component: {fileID: 1137417463}
-  - component: {fileID: 1137417462}
   - component: {fileID: 1137417466}
   - component: {fileID: 1137417467}
   m_Layer: 0
@@ -8883,18 +8859,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1137417462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000012140138052, guid: 6a7274aefcc6cef4fbbfba924cc7f657,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1137417461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1137417463
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8975,6 +8939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a032435aac24d72962f41989b2c2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serialHandler: {fileID: 76637}
 --- !u!1 &1151048550
 GameObject:
   m_ObjectHideFlags: 0
@@ -10045,11 +10010,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a20be1be8b6d456ab2c8e669e5e2f8e, type: 3}
-    m_FontSize: 100
+    m_FontSize: 120
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 100
+    m_MinSize: 0
+    m_MaxSize: 200
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -11366,6 +11331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a032435aac24d72962f41989b2c2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serialHandler: {fileID: 76637}
 --- !u!1 &1474601664
 GameObject:
   m_ObjectHideFlags: 0
@@ -13828,7 +13794,6 @@ GameObject:
   - component: {fileID: 1870296503}
   - component: {fileID: 1870296502}
   - component: {fileID: 1870296501}
-  - component: {fileID: 1870296500}
   - component: {fileID: 1870296499}
   - component: {fileID: 1870296504}
   m_Layer: 0
@@ -13849,18 +13814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a032435aac24d72962f41989b2c2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1870296500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000013812041550, guid: af16961524284e54491133548920258b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1870296498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serialHandler: {fileID: 76637}
 --- !u!23 &1870296501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14598,13 +14552,13 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_Font: {fileID: 12800000, guid: 535dcfd4ea8e941e2aa83ca86b8beff4, type: 3}
+    m_FontSize: 200
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 100
-    m_Alignment: 1
+    m_MaxSize: 200
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -14632,8 +14586,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 300}
+  m_AnchoredPosition: {x: 0, y: 100}
+  m_SizeDelta: {x: 600, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1962127321
 GameObject:
@@ -15791,6 +15745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a032435aac24d72962f41989b2c2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serialHandler: {fileID: 76637}
 --- !u!1 &2123346294
 GameObject:
   m_ObjectHideFlags: 0
