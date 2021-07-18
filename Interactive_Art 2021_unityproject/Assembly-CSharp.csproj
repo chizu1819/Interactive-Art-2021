@@ -51,9 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\moving.cs" />
-     <Compile Include="Assets\SerialHandler.cs" />
-     <Compile Include="Assets\SerialLight.cs" />
+     <Compile Include="Assets\Rotate.cs" />
+     <Compile Include="Assets\Script\Count.cs" />
+     <Compile Include="Assets\Script\finish.cs" />
+     <Compile Include="Assets\Script\gem.cs" />
+     <Compile Include="Assets\Script\moving.cs" />
+     <Compile Include="Assets\Script\retry.cs" />
+     <Compile Include="Assets\Script\SerialHandler.cs" />
+     <Compile Include="Assets\Script\SerialLight.cs" />
+     <Compile Include="Assets\Script\SerialSend.cs" />
      <None Include="Assets\JewelryShader_noriben\JewelryShaderSimple.shader" />
      <None Include="Assets\JewelryShader_noriben\JewelryShaderMax.shader" />
  <Reference Include="UnityEngine.UI">
