@@ -22,6 +22,7 @@ public class  moving : MonoBehaviour {
 	}
 	
 	void Update () {
+		/*
 		if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(0f, 0f, 0.1f);
@@ -30,6 +31,7 @@ public class  moving : MonoBehaviour {
         {
             transform.Translate(0f, 0f, -0.1f);
         }
+		*/
 		/*
         if (Input.GetKey(KeyCode.LeftArrow))
         {

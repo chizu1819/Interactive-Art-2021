@@ -18,7 +18,7 @@ public class gem : MonoBehaviour {
 	void OnCollisionEnter(Collision collision) {
 		if (collision.gameObject.tag == "Player") {
 			Debug.Log("Gem");
-			collision.gameObject.GetComponent<Renderer>().material.color = Color.yellow;
+			//collision.gameObject.GetComponent<Renderer>().material.color = Color.yellow;
 			Destroy(gameObject, 0.2f);
 		}
 	}
