@@ -38,7 +38,7 @@ public class SerialHandler : MonoBehaviour
 
 	private void Open()
 	{
-		serialPort_ = new SerialPort("/dev/cu.usbmodem141101", 115200);
+		serialPort_ = new SerialPort("/dev/cu.usbmodem142101", 115200);
 		//serialPort_ = new SerialPort(portName, baudRate, Parity.None, 8, StopBits.One);
 		//または
 		//serialPort_ = new SerialPort(portName, baudRate);
